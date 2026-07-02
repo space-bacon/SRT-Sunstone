@@ -26,7 +26,7 @@ dependencies = [
     # (verified on Qwen2.5-7B). forward() parity is fine under 5.x but multi-step
     # cached decoding degenerates. CVE-2026-1839 is mitigated by torch>=2.6 (and
     # we never use the HF Trainer), so we do not need the 5.x code fix.
-    "transformers>=4.40,<5.0",
+    "transformers>=4.40,<6.0",
     "safetensors>=0.4",
     "huggingface_hub>=0.24",
     "numpy>=1.24",
