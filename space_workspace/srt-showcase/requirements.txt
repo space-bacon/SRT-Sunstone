@@ -6,7 +6,7 @@ srt-adapter @ git+https://github.com/space-bacon/SRT.git@main
 # HARD PIN: transformers 5.x breaks the adapter's KV-cached manual generation
 # (verified: 5.7.0 garbles on Qwen2.5-7B, 4.53.3 correct). This is the deployed
 # showcase; generation MUST work. CVE-2026-1839 stays mitigated by torch>=2.6.
-transformers==4.53.3
+transformers==5.3.0
 torch>=2.6
 gradio==6.17.3
 spaces>=0.30
